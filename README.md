@@ -16,7 +16,7 @@ This project showcases an autonomous toy car's capabilities with real-time objec
 ### Visual Showcase
 
 - **Video Demonstration:**
-- [![Object Detection Demo Video](https://img.youtube.com/vi/nsQOkq1Gojw/0.jpg)](https://www.youtube.com/watch?v=nsQOkq1Gojw)
+- [![Object Detection Demo Video](https://img.youtube.com/vi/nsQOkq1Gojw/1.jpg)](https://www.youtube.com/watch?v=nsQOkq1Gojw)
 - [![Car Driving Demo Video](https://img.youtube.com/vi/1lWNy7MTgDM/0.jpg)](https://www.youtube.com/watch?v=1lWNy7MTgDM)
 
 Feel free to explore the codebase, review the project's architecture, and delve into specific functionalities by examining the code and documentation.
