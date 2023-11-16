@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="../static/styles.css">
+    </head>
+    <body>
+        <div id="header">
+            <div><h1>RoboWheel - Self Driving Car</h1></div>
+            <div><img id="RoboWheelImage" src="../static/car.png" alt="RoboWheel" height="250px" width="300px"></div>
+        </div> 
+        <img id="detectionImage" src="" alt="Detection Image" width="400px" height="400px">
+        <!-- <div>
+            <button>Start</button>
+            <button>Stop</button>
+        </div> -->
+        <div id="albumDiv">
+            <div><button id="buttonLeftArrow"><</button></div>
+            <img id="albumImage" src="" alt="Album Image" width="400px" height="400px">   
+            <div><button id="buttonRightArrow">></button></div>
+        </div>
+        <script type="module" src="{{ url_for('static', filename='js/script.js') }}"></script>
+    </body>
+</html>

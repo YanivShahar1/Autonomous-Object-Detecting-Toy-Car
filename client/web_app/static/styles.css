@@ -1,0 +1,249 @@
+
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/* Center the controls vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: space-between; /* Spread items horizontally */
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px; /* Add space to the left and right */
+}
+
+
+/* Style the container for the controls */
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 35%; /* Adjust the width for the controls */
+    height: 300px; /* Set a fixed height for the container */
+}
+
+/* Style buttons and input */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    
+}
+.input-label{
+    width: 100px;
+    text-align: left;
+    padding: auto;
+}
+
+
+/* Change button color on hover and focus */
+button:hover, button:focus {
+    background-color: #40474f;
+}
+
+/* Style the container for the input */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.turn-time {
+    width: 55px;
+    color: #000000; /* Change the font color */
+    background-color: rgb(177, 71, 71)fff; /* Change the background color */
+    padding: 5px; /* Add some padding to make it look better */
+    border: 1px solid #999; /* Add a border for better visibility */
+    border-radius: 5px; /* Round the corners */
+}
+.direction-button {
+    width: 100px;
+    background-color: #12a498;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the container for the table */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 40%; /* Adjust the width for the table */
+    max-height: 300px; /* Set a maximum height for the table container */
+    overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+    height: 250px; /* Set a fixed height for the container */
+}
+
+/* Style the table */
+#turnDataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style table headers */
+#turnDataTable th {
+    background-color: #12a498;
+    color: #fff;
+    padding: 2px;
+    font-size: 16px;
+    text-align: center;
+}
+.table-cell {
+    text-align: center;
+}
+/* Style table cells */
+#turnDataTable td {
+    padding: 2px;
+    text-align: center;
+}
+#saveTableBtn {
+    width: 100px; /* Adjust the width as needed */
+    margin-top: 10px; /* Add some spacing from the table */
+    align-self: left; /* Center the button horizontally */
+}
+
+/* Style for the detection image container */
+.detection-image-container {
+    align-items: center;
+    width: 50%; /* Make the container take the full width */
+    text-align: center; /* Center the image horizontally */
+    margin-top: 20px; /* Add some space above the image */
+    height: 300px; /* Set a fixed height for the container */
+}
+.detection-header {
+    text-align: center;
+    color: #7f1111;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the detection image */
+#detectionImage {
+    max-width: 50%; /* Make sure the image doesn't exceed the container's width */
+    border: 2px solid #787878; /* Add a border around the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+}
+
+
+.server-status {
+    align-items: start;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    
+}
+
+.server-status.green {
+    color: green;
+}
+
+.server-status.red {
+    color: red;
+}
+
+
+.delete-button {
+    background: none;
+    align-items: start;
+    border: none;
+    cursor: pointer;
+    color: #e74c3c; /* Red color or any color you prefer */
+    font-size: 16px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(88, 88, 88);
+    text-shadow: aliceblue 3px 3px 5px;
+    font-size: 40px;
+}
+button {
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: grey;
+    border-color: black;
+}
+button:hover {
+    background-color: rgb(186, 186, 186);
+    border-color: rgb(47, 47, 47);
+}
+/* #detection-image-container {
+    border: 3px solid black;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: black 3px 3px 3px;
+    background-color: red;
+} */
+#imageContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    border: 3px solid black;
+}
+#detectionImage {
+    border-color: green;
+}
+#buttonLeftArrow {
+    margin-top: 130px;
+}
+#buttonRightArrow {
+    margin-top: 130px;
+}
+#detection-image-container {
+
+}
+#streamAndAlbumContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#albumDiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+#RoboWheelImage {
+    margin-top: 40px;
+}
