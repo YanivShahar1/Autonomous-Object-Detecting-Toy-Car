@@ -18,7 +18,7 @@ This project showcases an autonomous toy car's capabilities with real-time objec
 - **Images:** Discover images displaying the car's hardware setup and operation in the `images/` directory.
 - **Video Demonstration:** 
  [Object Detection Demo Video](https://github.com/YanivShahar1/Autonomous-Object-Detecting-Toy-Car/blob/master/Robowheel_Car_Driving_Demo.mp4)  
- [Car Driving Demo Video](Robowheel_Car_Driving_Demo.mp4)
+ [Car Driving Demo Video](https://github.com/YanivShahar1/Autonomous-Object-Detecting-Toy-Car/blob/master/Robowheel_POV_Object_Detection_Demo.mp4)
 
 Feel free to explore the codebase, review the project's architecture, and delve into specific functionalities by examining the code and documentation.
 
