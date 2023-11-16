@@ -16,7 +16,9 @@ This project showcases an autonomous toy car's capabilities with real-time objec
 ### Visual Showcase
 
 - **Images:** Discover images displaying the car's hardware setup and operation in the `images/` directory.
-- **Video Demonstration:** Watch a video demonstration of the car's operation [here](link-to-video).
+- **Video Demonstration:** 
+ [Object Detection Demo Video](Robowheel_Object_Detection_Demo.mp4)
+ [Car Driving Demo Video](Robowheel_Car_Driving_Demo.mp4)
 
 Feel free to explore the codebase, review the project's architecture, and delve into specific functionalities by examining the code and documentation.
 
