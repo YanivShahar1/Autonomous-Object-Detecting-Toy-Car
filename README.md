@@ -14,8 +14,10 @@ Robowheel is an embedded system project focused on creating an autonomous toy ca
 This project showcases an autonomous toy car's capabilities with real-time object detection. Although replicating the hardware setup might not be feasible for everyone, you can explore and understand the project's functionalities through visual media provided.
 
 ### Visual Showcase
-- Object Detection Demo Video [![Object Detection Demo Video](https://img.youtube.com/vi/nsQOkq1Gojw/1.jpg)](https://www.youtube.com/watch?v=nsQOkq1Gojw)
-- Car Driving Demo Video [![Car Driving Demo Video](https://img.youtube.com/vi/1lWNy7MTgDM/1.jpg)](https://www.youtube.com/watch?v=1lWNy7MTgDM)
+- Object Detection Demo Video
+ [![Object Detection Demo Video](https://img.youtube.com/vi/nsQOkq1Gojw/1.jpg)](https://www.youtube.com/watch?v=nsQOkq1Gojw)
+- Car Driving Demo Video
+  [![Car Driving Demo Video](https://img.youtube.com/vi/1lWNy7MTgDM/1.jpg)](https://www.youtube.com/watch?v=1lWNy7MTgDM)
 
 Feel free to explore the codebase, review the project's architecture, and delve into specific functionalities by examining the code and documentation.
 
